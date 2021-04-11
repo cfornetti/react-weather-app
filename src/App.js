@@ -11,7 +11,7 @@ export default function App() {
       <a href="https://github.com/cfornetti/react-weather-app"
       target="blank"
       > open-sourced on GitHub
-      </a>
+      </a> {" "}
       and is available on {" "}
       <a href="https://infallible-boyd-715bf0.netlify.app/"
       target="blank">Netflify</a>

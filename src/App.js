@@ -12,6 +12,9 @@ export default function App() {
       target="blank"
       > open-sourced on GitHub
       </a>
+      and is available on {" "}
+      <a href="https://infallible-boyd-715bf0.netlify.app/"
+      target="blank">Netflify</a>
       </footer>
     </div>
   );

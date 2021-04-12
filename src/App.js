@@ -1,11 +1,12 @@
 import React from "react";
-
+import Weather from "./Weather.js";
 import './App.css';
 
 export default function App() {
   return (
     <div className="App">
-      <h1>Weather App</h1>
+      <div className="container">
+      <Weather />
       <footer>
         This project is created by Chiara Fornetti and is {" "}
       <a href="https://github.com/cfornetti/react-weather-app"
@@ -16,6 +17,7 @@ export default function App() {
       <a href="https://infallible-boyd-715bf0.netlify.app/"
       target="blank">Netflify</a>
       </footer>
-    </div>
+      </div>
+      </div>
   );
 }

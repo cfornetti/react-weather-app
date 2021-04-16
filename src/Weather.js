@@ -58,7 +58,7 @@ if (weatherData.ready) {
         </div>
     );
 } else {
-    search()
+    search();
     return "Loading..."
 }
 }

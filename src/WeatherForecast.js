@@ -3,10 +3,12 @@ import WeatherIcon from "./WeatherIcon";
 import "./WeatherForecast.css";
 import axios from "axios";
 
-export default function WeatherForecast (){
+export default function WeatherForecast (props){
     function handleResponse(response){
         console.log(response.data);
     }
+
+    console.log(props);
     
     let apiKey="d41ef9769dc7a581713400eb6cdff7f1"
     let longitude = props.coordinates.lon;

@@ -1,12 +1,19 @@
 import React from "react";
 import Weather from "./Weather.js";
+import WeatherTwo from "./WeatherTwo"
 import './App.css';
 
 export default function App() {
   return (
     <div className="App">
       <div className="container">
+      <div className="title">
+        <strong>
+          Is it warmer in ... or ...?
+        </strong>
+      </div>
       <Weather defaultCity="New York" />
+      <WeatherTwo defaultCity="San Francisco" />
       <footer>
         This project is created by Chiara Fornetti and is {" "}
       <a href="https://github.com/cfornetti/react-weather-app"

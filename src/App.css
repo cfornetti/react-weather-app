@@ -12,3 +12,11 @@ body{
     font-size: 11px;
     margin: 10px 0;
 }
+
+.title{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(49, 0, 45);
+    margin: auto;
+    text-align: center;
+}

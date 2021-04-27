@@ -4,7 +4,7 @@
     padding: 16px;
     margin: 30px auto;
     border-radius: 4px;
-    color: rgb(255, 200, 250);
+    color: rgb(49, 0, 45);
 }
 
 .Weather h1 {
@@ -34,14 +34,14 @@
 
 .Weather .temperature{
     font-weight: bold;
-    color: rgb(33, 33, 33);
+    color: rgb(49, 0, 45);
     font-size: 64px;
     line-height: 64px;
     font-weight: 400;
 }
 
 .Weather .unit{
-    color: rgb(33, 33, 33);
+    color: rgb(49, 0, 45);
     font-size: 16px;
     font-weight: 400;
     position: relative;

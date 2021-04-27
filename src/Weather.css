@@ -1,10 +1,10 @@
 .Weather{
-    font-family: arial, sans-serif;
-    border: 1px solid grey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid rgb(214, 200, 200);
     padding: 16px;
     margin: 30px auto;
     border-radius: 4px;
-    color: rgb(135, 135, 135);
+    color: rgb(255, 200, 250);
 }
 
 .Weather h1 {
